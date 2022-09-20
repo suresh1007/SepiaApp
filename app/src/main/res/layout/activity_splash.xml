@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".activity.splash.ActivitySplash">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_tem_member"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/animal_default"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</layout>
